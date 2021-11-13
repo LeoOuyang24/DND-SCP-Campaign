@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
+
+
 const axios = require('axios');
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -24,9 +28,16 @@ class App extends Component {
     return (
       <div>
         <div id="frontPage">
-          <h1>Free Programming Books</h1>
-          <input type="text"></input>
+          <h1>The Foundation Archives</h1>
         </div>
+		<nav
+        style={{
+          borderBottom: "solid 1px",
+          paddingBottom: "1rem"
+        }}
+      >
+        <Link to="/expenses">Expenses</Link>
+      </nav>
       </div>
     );
   }
