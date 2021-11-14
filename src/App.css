@@ -44,6 +44,18 @@
 	border-bottom: 1px solid black;
 }
 
+.basicInfo
+{
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.basicInfo h4
+{
+	display: inline;
+
+}
+
 .mainImage
 {
 	display:inline;

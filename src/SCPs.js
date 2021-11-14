@@ -1,4 +1,4 @@
-export var SCPs = 
+/*export var SCPs = 
 [
 	{
 		title = "Magic",
@@ -6,4 +6,4 @@ export var SCPs =
 		intro = "Perhaps the earliest and most basal known 'anomaly', SCP 000, more colloquially known as 'magic', is such an intrisic part of our world that some experts once wondered is even an SCP or a distinct branch of physics. ",
 		sections = []
 	}
-]
+]*/

@@ -12,19 +12,8 @@ class App extends Component {
     }
   }
 
-	async f1()
-	{
-		return await axios.get('https://raw.githubusercontent.com/Senior-Design-2021-Ebook-Team/markdown-parser/main/fpb.json')
-	}
-
-  asyncCall = async () => {
-    const result = await this.f1();
-	return result
-  }
-
  
   render() {
-    this.asyncCall().then(json => console.log(json.data));
     return (
       <div>
         <div id="frontPage">
