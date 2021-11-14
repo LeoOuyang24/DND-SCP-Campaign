@@ -3,11 +3,15 @@
 		"containment": "Destroyed",
 		"objClass": "Neutralized", 
 		"mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/298Bap-LB1-mag15.jpg/330px-298Bap-LB1-mag15.jpg",
-		"intro": "Perhaps the earliest and most basal known 'anomaly', SCP 000, more colloquially known as 'magic', is such an intrisic part of our world that some experts once wondered if it is even an SCP or a distinct branch of physics. ",
+		"intro": "Baptistina is the name given to the mysterious event that created the Chicxulub crater and wiped out the non-avian dinosaurs 65 million years ago. The name is in reference to the Baptistina family of asteroids, which paelontologists once believed to be the origin of what they believed was a meteorite that caused the K-T mass extinction.",
 		"sections": [
 			{
-				"title": "Containment",
-				"message": "Magic itself is more of a phenomenon than an actual SCP and as a result, its containment involves containing its many manifestations, which are SCPs that each have their own documents. Perhaps the most interesting of the 'magical' SCPs are the Arcanists, humans capable of wielding magic. "
+				"title": "Description",
+				"message": "Despite being one of the most fundamental SCPs, very little is known about Baptistina. All is known is that 65 million years ago, an anomalous event occured that significantly destabilized reality. From a scientific perspective, this caused a mass extinction, wiping out the non-avian dinosaurs and many other specieis. From a parascientific perspective, Baptistina disturbed the fabric of reality, causing adjacent realities to seap through. Though SCPs almost certainly happened on Earth and around the universe before Baptistina, they were extremely rare with maybe one occurring every couple million years, whereas now there are hundreds of known SCPs, at least 90% of which came into existence within the last 10,000 years."
+			},
+			{
+				"title": "Suggested Causes",
+				"message": "The members of the non-anomalous scientific community, or NonAnoms, believe that the Chicxulub crater was created by an asteroid. While a meteor is possible, it would be no normal asteroid and may <p> </p>>"
 			}
 		]
 	}
