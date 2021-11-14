@@ -1,6 +1,8 @@
 	{
-		"title": "Magic",
-		"mainImage": "https://thomasmdbrooke.files.wordpress.com/2015/06/universal_magic-normal-e1433246886449.jpg?w=800",
+		"title": "Baptistina",
+		"containment": "Destroyed",
+		"objClass": "Neutralized", 
+		"mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/298Bap-LB1-mag15.jpg/330px-298Bap-LB1-mag15.jpg",
 		"intro": "Perhaps the earliest and most basal known 'anomaly', SCP 000, more colloquially known as 'magic', is such an intrisic part of our world that some experts once wondered if it is even an SCP or a distinct branch of physics. ",
 		"sections": [
 			{
