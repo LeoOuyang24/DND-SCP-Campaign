@@ -18,6 +18,41 @@
   text-align: center;
 }
 
+.SCPPage
+{
+  margin-bottom: 30%;
+  width: 70%;
+  margin: auto;
+}
+
+.sectionTitle
+{
+	margin-bottom:0%;
+
+}
+
+.intro{
+	display: block;
+}
+
+.introText{
+	display: inline;
+}
+
+.pageName
+{
+	border-bottom: 1px solid black;
+}
+
+.mainImage
+{
+	display:inline;
+	width: 20%;
+	height: 20%;
+	float: right;
+	clear: right;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
