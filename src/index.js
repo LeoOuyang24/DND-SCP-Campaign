@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';
 import App from './App';
-import { Section, SCPPage} from "./routes/format.js";
+import { parseSection, SCPPage} from "./routes/format.js";
 
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
@@ -10,6 +10,8 @@ import {Routes, Route} from "react-router-dom";
 
 
 import testImage from "./images/test.png";
+
+
 
 async function getRoutes()
 {
@@ -28,7 +30,7 @@ async function getRoutes()
 					intro = {json.intro} 
 					containment = {json.containment === undefined ? "Unknown" : json.containment} 
 					objClass = {json.objClass === undefined ? "Unknown" : json.objClass} 
-					sections = {json.sections.map((sections) => <Section title={sections.title} message={sections.message}/>)}
+					sections = {json.sections.map((sections) => parseSection(sections))}
 
 				/>}/>)})
 			} 

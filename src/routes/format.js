@@ -13,6 +13,38 @@ export function Section(props) {
       </div>
     );
   }
+export function ListSubSection(props)
+{
+	let list = props.list.map((a) => <li>{a}</li>)
+	return (
+		<div className = "listSubSection">
+			{props.ordered ? <ul className = "listSubSectionList">{list}</ul> :
+							 <ol className = "listSubSectionList">{list}</ol>}
+		</div>
+	)
+}
+
+export function MessageSubSection(props)
+{
+	return (<div className = "messageSubSection">{props.message}</div>)
+}
+
+export function parseSection(sec)
+{
+	if (sec.type !== undefined)
+	{
+		switch (sec.type)
+		{
+			case 'list':
+				return <ListSubSection ordered = {sec.ordered} list = {sec.list}/>
+				break;
+			case 'message':
+				return <MessageSubSection message = sec.message/>;
+				break;
+		}
+	}
+	return <Section title={sec.title} message={sec.message}/>
+}
 
 export function SCPPage(props){
 		
