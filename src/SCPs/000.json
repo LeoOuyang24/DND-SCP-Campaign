@@ -32,7 +32,7 @@
 				{
 					"type": "message",
 					"message": "Researchers have reported experiencing the following effects: "
-				}
+				},
 				{
 					"type": "list",
 					"ordered": "false",
