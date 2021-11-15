@@ -19,7 +19,7 @@ async function getRoutes()
 	let baseLink = "https://raw.githubusercontent.com/LeoOuyang24/DND-SCP-Campaign/main/src/SCPs/"
 	for (let i = 0; i < 10; ++i)
 	{	
-			let SCPNum = ((a) => {let str = ""; for (let j = 0; j < a; ++j) str += "0"; return str})( i != 0 ? 2 - Math.floor(Math.log10(i)) : 2) + (i).toString(); //the number of the SCP, which is always a 3-digit number
+			let SCPNum = ((a) => {let str = ""; for (let j = 0; j < a; ++j) str += "0"; return str})( i !== 0 ? 2 - Math.floor(Math.log10(i)) : 2) + (i).toString(); //the number of the SCP, which is always a 3-digit number
 			let linkTag = baseLink + SCPNum  + ".json"
 			let result = await fetch(linkTag)
 			if (result.ok) {

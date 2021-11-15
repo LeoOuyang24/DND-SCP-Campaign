@@ -29,6 +29,16 @@ export function MessageSubSection(props)
 	return (<div className = "messageSubSection">{props.message}</div>)
 }
 
+export function ImageSubSection(props)
+{
+	return (<div className = "imageSubSection"> 
+				<img src = {props.image} className = "image"/> 
+				<div className = "imageCaption"> 
+					{props.caption} 
+				</div>
+			</div>)
+}
+
 export function parseSection(sec)
 {
 	if (sec.type !== undefined)
@@ -40,6 +50,9 @@ export function parseSection(sec)
 				break;
 			case 'message':
 				return <MessageSubSection message = {sec.message}/>;
+				break;
+			case 'image':
+				return <ImageSubSection image = {sec.image} caption = {sec.caption}/>
 				break;
 		}
 	}
@@ -58,10 +71,7 @@ export function SCPPage(props){
 				<h4> Object Class: </h4> {props.objClass} <br/>
 			</div>
 			<div className = "intro">
-			<img src = {props.mainImage} className = "mainImage"/>
-				<div className = "introText">
-					{props.intro}
-				</div>
+				<ImageSubSection image={props.mainImage} caption = {props.caption}/>
 			</div>
 			<div className = "sections">
 				{props.sections}
