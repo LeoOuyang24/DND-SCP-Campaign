@@ -39,7 +39,7 @@ export function parseSection(sec)
 				return <ListSubSection ordered = {sec.ordered} list = {sec.list}/>
 				break;
 			case 'message':
-				return <MessageSubSection message = sec.message/>;
+				return <MessageSubSection message = {sec.message}/>;
 				break;
 		}
 	}
