@@ -20,8 +20,8 @@
     "static/js/8.0600a9b5.chunk.js.map": "/DND-SCP-Campaign/static/js/8.0600a9b5.chunk.js.map",
     "static/js/9.8ee0f0a9.chunk.js": "/DND-SCP-Campaign/static/js/9.8ee0f0a9.chunk.js",
     "static/js/9.8ee0f0a9.chunk.js.map": "/DND-SCP-Campaign/static/js/9.8ee0f0a9.chunk.js.map",
-    "static/js/10.e33dbc94.chunk.js": "/DND-SCP-Campaign/static/js/10.e33dbc94.chunk.js",
-    "static/js/10.e33dbc94.chunk.js.map": "/DND-SCP-Campaign/static/js/10.e33dbc94.chunk.js.map",
+    "static/js/10.40211f33.chunk.js": "/DND-SCP-Campaign/static/js/10.40211f33.chunk.js",
+    "static/js/10.40211f33.chunk.js.map": "/DND-SCP-Campaign/static/js/10.40211f33.chunk.js.map",
     "static/js/11.769dd6d8.chunk.js": "/DND-SCP-Campaign/static/js/11.769dd6d8.chunk.js",
     "static/js/11.769dd6d8.chunk.js.map": "/DND-SCP-Campaign/static/js/11.769dd6d8.chunk.js.map",
     "static/js/12.b4d5e5d0.chunk.js": "/DND-SCP-Campaign/static/js/12.b4d5e5d0.chunk.js",
@@ -41,8 +41,8 @@
     "main.css": "/DND-SCP-Campaign/static/css/main.387ba002.chunk.css",
     "main.js": "/DND-SCP-Campaign/static/js/main.1b68ce9b.chunk.js",
     "main.js.map": "/DND-SCP-Campaign/static/js/main.1b68ce9b.chunk.js.map",
-    "runtime-main.js": "/DND-SCP-Campaign/static/js/runtime-main.d998579c.js",
-    "runtime-main.js.map": "/DND-SCP-Campaign/static/js/runtime-main.d998579c.js.map",
+    "runtime-main.js": "/DND-SCP-Campaign/static/js/runtime-main.4a29cc4b.js",
+    "runtime-main.js.map": "/DND-SCP-Campaign/static/js/runtime-main.4a29cc4b.js.map",
     "static/js/21.2ff065d2.chunk.js": "/DND-SCP-Campaign/static/js/21.2ff065d2.chunk.js",
     "static/js/21.2ff065d2.chunk.js.map": "/DND-SCP-Campaign/static/js/21.2ff065d2.chunk.js.map",
     "static/css/22.2ae47eeb.chunk.css": "/DND-SCP-Campaign/static/css/22.2ae47eeb.chunk.css",
@@ -73,7 +73,7 @@
     "static/media/test.png": "/DND-SCP-Campaign/static/media/test.16dfe32c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d998579c.js",
+    "static/js/runtime-main.4a29cc4b.js",
     "static/js/21.2ff065d2.chunk.js",
     "static/css/main.387ba002.chunk.css",
     "static/js/main.1b68ce9b.chunk.js"
