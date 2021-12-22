@@ -1,6 +1,6 @@
 {
   "homepage": "https://leoouyang24.github.io/DND-SCP-Campaign/",
-  "name": "SCP Foundation",
+  "name": "scpfoundation",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +19,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm rum build",
+    "predeploy": "npm run build",
 	"deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
