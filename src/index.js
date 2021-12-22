@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';
 import App from './App';
-import { parseSection, SCPPage} from "./routes/format.js";
+import { parseSection, SCPPage, get3Digits, ErrorPage} from "./routes/format.js";
 
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
@@ -12,32 +12,38 @@ import {Routes, Route} from "react-router-dom";
 import testImage from "./images/test.png";
 
 
-
 async function getRoutes()
 {
 	let routes = [];
-	let baseLink = "https://raw.githubusercontent.com/LeoOuyang24/DND-SCP-Campaign/main/src/SCPs/"
-	for (let i = 0; i < 10; ++i)
+	let baseLink = "SCPs/"
+	for (let i = 0; i < 100; ++i)
 	{	
-			let SCPNum = ((a) => {let str = ""; for (let j = 0; j < a; ++j) str += "0"; return str})( i !== 0 ? 2 - Math.floor(Math.log10(i)) : 2) + (i).toString(); //the number of the SCP, which is always a 3-digit number
-			let linkTag = baseLink + SCPNum  + ".json"
-			let result = await fetch(linkTag)
-			if (result.ok) {
-				result.json().then( json => {console.log(json);routes.push( <Route path = {SCPNum} element = 
-				{<SCPPage 
-					title = {"SCP " + SCPNum + ": " + json.title} 
-					mainImage = {json.mainImage} 
-					intro = {json.intro} 
-					containment = {json.containment === undefined ? "Unknown" : json.containment} 
-					objClass = {json.objClass === undefined ? "Unknown" : json.objClass} 
-					sections = {json.sections.map((sections) => parseSection(sections))}
-
-				/>}/>)})
-			} 
-			else {
-				console.log(result.statusText)
+			let SCPNum = get3Digits(i); //the number of the SCP, which is always a 3-digit number
+			let linkTag = baseLink + SCPNum  + ".js"
+			try {
+				let result = await import("./" + linkTag)
+				routes.push(<Route path = {SCPNum} element = {<SCPPage num = {i} elems = {[result.get(i)]}/>}/>)
 			}
+			catch (err)
+			{
+				//console.log("Error: " + err)
+				routes.push (<Route path = {SCPNum} element = {<ErrorPage num={3}/>}/>)
+			}
+			linkTag = "ASCPs/" + "a" + SCPNum + ".js"
+			console.log(linkTag)
+			try {
+				let result = await import("./" + linkTag)
+				console.log(result.get(i))
+				routes.push(<Route path = {"a" + SCPNum} element = {<SCPPage num = {i} artificial = {true} elems = {[result.get(i)]}/>}/>)
+			}
+			catch (err)
+			{
+				console.log("Error: " + err)
+				routes.push (<Route path = {SCPNum} element = {<ErrorPage num={3}/>}/>)
+			}
+			//routes.push(<Route path = {get3Digits(i)} element = {SCPs[i](i)}/>)
 	}
+	console.log(routes)
 	return routes;
 }
 async function main(){
@@ -45,7 +51,7 @@ async function main(){
 	  <BrowserRouter basename = "/DND-SCP-Campaign">
 		<Routes>
 		  <Route path="/" element={<App/>} />
-		{await getRoutes()}
+			  {await getRoutes()}
 		</Routes>
 	  </BrowserRouter>,
 	  document.getElementById('root')
