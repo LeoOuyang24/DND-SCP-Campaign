@@ -1,4 +1,0 @@
-SCP004: Moonkin
-ASCP010: Bag of Holding
-ASCP001: Constant Time elevators
-SCP011: Lobster God
