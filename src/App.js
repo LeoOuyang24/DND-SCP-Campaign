@@ -23,7 +23,7 @@ class App extends Component {
 		let num = get3Digits(i)
 		links.push (
 		<li>
-			<a href = {baseLink + num.toString()}>{num}</a>
+			<Link to = {num.toString()}>{num}</Link>
 		</li>)
 		
 		

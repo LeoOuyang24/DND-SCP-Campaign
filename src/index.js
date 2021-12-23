@@ -5,8 +5,8 @@ import App from './App';
 import { parseSection, SCPPage, get3Digits, ErrorPage} from "./routes/format.js";
 
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from "react-router-dom";
-import {Routes, Route} from "react-router-dom";
+import { BrowserRouter,HashRouter } from "react-router-dom";
+import {Routes, Route,Link} from "react-router-dom";
 
 
 import testImage from "./images/test.png";
@@ -48,12 +48,12 @@ async function getRoutes()
 }
 async function main(){
 	ReactDOM.render(
-	  <BrowserRouter basename = "/DND-SCP-Campaign">
+	  <HashRouter>
 		<Routes>
-		  <Route path="/" element={<App/>} />
-			  {await getRoutes()}
+			<Route path="/" element={<App/>} />
+				{await getRoutes()}
 		</Routes>
-	  </BrowserRouter>,
+	  </HashRouter>,
 	  document.getElementById('root')
 	);
 }
