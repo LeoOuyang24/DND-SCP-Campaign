@@ -39,8 +39,8 @@
     "static/js/18.b44a481d.chunk.js": "/DND-SCP-Campaign/static/js/18.b44a481d.chunk.js",
     "static/js/18.b44a481d.chunk.js.map": "/DND-SCP-Campaign/static/js/18.b44a481d.chunk.js.map",
     "main.css": "/DND-SCP-Campaign/static/css/main.387ba002.chunk.css",
-    "main.js": "/DND-SCP-Campaign/static/js/main.b891aa62.chunk.js",
-    "main.js.map": "/DND-SCP-Campaign/static/js/main.b891aa62.chunk.js.map",
+    "main.js": "/DND-SCP-Campaign/static/js/main.dad49c3c.chunk.js",
+    "main.js.map": "/DND-SCP-Campaign/static/js/main.dad49c3c.chunk.js.map",
     "runtime-main.js": "/DND-SCP-Campaign/static/js/runtime-main.0534ba94.js",
     "runtime-main.js.map": "/DND-SCP-Campaign/static/js/runtime-main.0534ba94.js.map",
     "static/js/21.e47562e7.chunk.js": "/DND-SCP-Campaign/static/js/21.e47562e7.chunk.js",
@@ -76,6 +76,6 @@
     "static/js/runtime-main.0534ba94.js",
     "static/js/21.e47562e7.chunk.js",
     "static/css/main.387ba002.chunk.css",
-    "static/js/main.b891aa62.chunk.js"
+    "static/js/main.dad49c3c.chunk.js"
   ]
 }
