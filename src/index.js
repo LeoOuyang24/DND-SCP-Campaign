@@ -48,7 +48,7 @@ async function getRoutes()
 }
 async function main(){
 	ReactDOM.render(
-	  <HashRouter>
+	  <HashRouter basename="/DND-SCP-Campaign">
 		<Routes>
 			<Route path="/" element={<App/>} />
 				{await getRoutes()}
