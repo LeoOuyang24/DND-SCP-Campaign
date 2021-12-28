@@ -27,7 +27,7 @@ async function getRoutes()
 			catch (err)
 			{
 				//console.log("Error: " + err)
-				routes.push (<Route path = {SCPNum} element = {<ErrorPage num={3}/>}/>)
+				routes.push (<Route path = {SCPNum} element = {<ErrorPage num={5}/>}/>)
 			}
 			linkTag = "ASCPs/" + "a" + SCPNum + ".js"
 			console.log(linkTag)

@@ -76,9 +76,9 @@ export function get(SCPnum)
 			  <tr>
 				<td>6</td>
 				<td>The apparatus walks or 
-					swims forward. It will continue to do so until lever is manually returned to neutral position.    </td>
+					swims forward. It will continue to do so until lever is manually returned to neutral position, although some control is needed to control steadiness.  </td>
 				<td>The apparatus walks or 
-					swims backward. It will continue to do so until lever is manually returned to neutral position. </td>
+					swims backward. It will continue to do so until lever is manually returned to neutral position, although some control is needed to control steadiness.  </td>
 			  </tr>
 			  <tr>
 				<td>7</td>
@@ -88,7 +88,7 @@ export function get(SCPnum)
 			  <tr>
 				<td>8</td>
 				<td>The apparatus increases its mass, causing it to sink at a rate of 10 feet per second    </td>
-				<td>he apparatus decreases its mass, causing it to rise at a rate of 10 feet per second  </td>
+				<td>The apparatus decreases its mass, causing it to rise at a rate of 10 feet per second  </td>
 			  </tr>
 			  <tr>
 				<td>9</td>

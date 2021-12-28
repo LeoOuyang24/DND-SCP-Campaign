@@ -3,7 +3,7 @@ import * as Formats from "../routes/format.js"
 export function get(SCPnum)
 {
 	return (	
-			[<Formats.IntroSubSection title = "Bag of Devouring" num={SCPnum} containment="Containment Sector X4" objClass="Safe" 
+			[<Formats.IntroSubSection title = "Bag of Devouring" num={SCPnum} containment="Floor 1-BM" objClass="Safe" 
 			mainImage="https://www.dndbeyond.com/avatars/thumbnails/7/118/1000/1000/636284707844421733.jpeg"
 			caption="The original specimen, from which all Bags of Holding are derived."
 			intro="Originally found in an old pawn shop, the Bag of Devouring is a seemingly normal tote bag with a face design on its outside. There appears to be nothing in the bag but a dark void, and any object dropped in will disappear after falling for roughly 10 seconds. In reality, the bag is the maw of a gigantic extradimensional creature that devours any object put in the bag. Like many SCPs, it is most likely an opportunistic infovorous virus, SCPs that grow by consuming objects and then use what it consumes to change form and consume more objects. In the case of 001, the bag exploits the human behaviour of putting things into bags to consume objects, which can allow it to learn more about humans and thus evolve into a form that consumes even more objects."/>,
