@@ -1,2 +1,0 @@
-(this["webpackJsonpSCP Foundation"]=this["webpackJsonpSCP Foundation"]||[]).push([[25],{82:function(t,o,s){"use strict";s.r(o),o.default=s.p+"static/media/logo.6ce24c58.svg"}}]);
-//# sourceMappingURL=25.37ef0665.chunk.js.map
