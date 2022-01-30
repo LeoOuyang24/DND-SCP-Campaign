@@ -13,7 +13,7 @@ export function get(SCPnum)
 			<strike>
 				SCP007 has never previously been contained. Its existence is only known through historical texts and documents.
 			</strike>,
-			<b>UPDATE March 1 2021</b>: SCP007 was retrieved by low level Foundation agents in a tomb containing remnants of SCP005. It is possible workers digging out the tomb encountered 007 and were subsequently consumed. Research is ongoing.
+			<b>UPDATE March 1 2021</b>: SCP007 was retrieved by low level Foundation agents in a tomb containing remnants of SCP005. It is possible workers digging out the tomb encountered 007 and were subsequently consumed. Research is ongoing. 
 			</div>,
 			<Formats.Section title = "Description" message= "SCP007 often takes up the appearance of a small black pig figurine. Reports of SCP007 appearance have included:"/>,
 			<Formats.ListSubSection ordered = {false} list={[
