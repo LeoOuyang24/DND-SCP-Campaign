@@ -1,0 +1,2 @@
+(this["webpackJsonpSCP Foundation"]=this["webpackJsonpSCP Foundation"]||[]).push([[15],{45:function(e,t,n){"use strict";n.r(t);var a=n(266),c=n(11),o=n(0);test("renders learn react link",(function(){Object(a.a)(Object(o.jsx)(c.default,{}));var e=a.b.getByText(/learn react/i);expect(e).toBeInTheDocument()}))}}]);
+//# sourceMappingURL=15.3a06990d.chunk.js.map

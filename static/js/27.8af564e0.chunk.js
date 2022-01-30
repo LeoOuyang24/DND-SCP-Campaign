@@ -1,2 +1,0 @@
-(this["webpackJsonpSCP Foundation"]=this["webpackJsonpSCP Foundation"]||[]).push([[27],{84:function(t,i,n){"use strict";n.r(i),i.default=n.p+"static/media/SCPS.263c97f2.txt"}}]);
-//# sourceMappingURL=27.8af564e0.chunk.js.map
